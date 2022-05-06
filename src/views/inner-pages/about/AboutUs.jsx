@@ -142,9 +142,7 @@ const AboutUs = () => {
                         style={{ "--ptf-xxl": "2.5rem" }}
                       ></div>
                       <p className="fz-18">
-                        We help ambitious businesses like yours generate more
-                        profits by building awareness, driving web traffic,
-                        connecting with customers and growing overall sales.
+                        We aim to create fair and sustainable value in everything we undertake as a group. 
                       </p>
                     </div>
                     {/* <!--Spacer--> */}
@@ -310,7 +308,7 @@ const AboutUs = () => {
                     ></div>
                   </div>
                   <div className="col-lg-8">
-                    <Award />
+                    <Award /> 
                   </div>
                 </div>
               </div>

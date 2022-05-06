@@ -4,38 +4,38 @@ const approachContent = [
   {
     subTitle: "ONE",
     title: "Research",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipiscing elit cras tempus. Libero ligula, vitae accumsan tortor varius nec. Ut luctus maximus dolor. Nunc sed diam sit amet urna fermentum accumsan vitae vitae diam.`,
+    descriptions: `Approach1`,
     delayAnimation: "0",
   },
 
   {
     subTitle: "TWO",
     title: "Concept",
-    descriptions: `Donec venenatis consequat libero, quis auctor nunc volutpat quis. Proin at ipsum id magna dapibus dictum eget lobortis magna. Fusce et ligula non tellus vulputate condimentum.`,
+    descriptions: `Approach2`,
     delayAnimation: "100",
   },
   {
     subTitle: "THREE",
     title: "Strategy",
-    descriptions: `Consectetur adipiscing elit cras tempus. Libero ligula, vitae accumsan tortor varius nec. Ut luctus maximus dolor. Nunc sed diam sit amet urna fermentum accumsan vitae vitae diam.`,
+    descriptions: `Approach3`,
     delayAnimation: "200",
   },
   {
     subTitle: "FOUR",
     title: "Development",
-    descriptions: `Vivamus vel sollicitudin sem, id sagittis justo. Nam non magna eleifend, tempus nisl quis, commod diam. Morbi gravida ut nulla non porttitor. Suspendis eget arcu eu ex dignissim faucibus. Nullam et luctus tortor.`,
+    descriptions: `Approach4`,
     delayAnimation: "300",
   },
   {
     subTitle: "FIVE",
     title: "Test",
-    descriptions: `Suspendisse vel magna vitae nunc consequat eleifend. Aenean iaculis Nam non magna eleifend est eget turpis lacinia egest dictum ipsum sollicitudin.Suspendis eget arcu eu ex dignissim faucibus.`,
+    descriptions: `Approach5`,
     delayAnimation: "400",
   },
   {
     subTitle: "SIX",
     title: "Hand Over",
-    descriptions: `Lorem ipsum dolor sit amet, consectetur adipiscing elit cras tempus. Libero ligula, vitae accumsan tortor varius nec. Ut luctus maximus dolor. Nunc sed diam sit amet urna fermentum accumsan vitae vitae diam.`,
+    descriptions: `Approach6`,
     delayAnimation: "500",
   },
 ];
@@ -66,7 +66,7 @@ const Approach = () => {
             >
               <div className="ptf-approach-box__subtitle">{val.subTitle}</div>
               <h3 className="ptf-approach-box__title h1">{val.title}</h3>
-              <div className="ptf-approach-box__content">
+              <div className="ptf-approach-box__content text-white">
                 <p>{val.descriptions}</p>
               </div>
             </div>

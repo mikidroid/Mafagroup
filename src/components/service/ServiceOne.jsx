@@ -4,31 +4,30 @@ import { Link } from "react-router-dom";
 const serviceContent = [
   {
     icon: "lnil lnil-cup",
-    titlePart1: "BRAND",
-    titlePart2: "CONSULTANT",
-    descriptions: ` We build and activate brands throung cultural insight &amp;
-        strategic vision.`,
-  },
-  {
-    icon: "lnil lnil-website-rank",
-    titlePart1: "UI/UX",
-    titlePart2: "SOLUTION",
-    descriptions: ` We build and activate brands throung cultural insight &amp;
-        strategic vision.`,
+    titlePart1: "MAFA",
+    titlePart2: "INTEGRATED FARMING",
+    descriptions: ` MAFA Integrated Farming is an agribusiness company established with a target to use modern 
+tools and technologies with traditional practices to grow Crops and Livestock, with special 
+focus on precision farming for maximum output through optimal use of local resources, 
+effective recycling of farm waste for productive purposes.  `,
   },
   {
     icon: "lnil lnil-3d",
-    titlePart1: "PACKAGING",
+    titlePart1: "AMA CONSULTING",
     titlePart2: "",
-    descriptions: ` We build and activate brands throung cultural insight &amp;
-        strategic vision.`,
+    descriptions: ` AMA Consulting is a business consulting firm that works together with micro, small and 
+medium enterprises in Nigeria and Africa to develop powerful strategies, specific to their 
+organization, which will increase profits and help them grow and remain relevant in the 
+metaverse age.`,
   },
   {
-    icon: "lnil lnil-video-camera-alt-1",
-    titlePart1: "MOTION VIDEO",
-    titlePart2: "& TVC",
-    descriptions: ` We build and activate brands throung cultural insight &amp;
-        strategic vision.`,
+    icon: "lnil lnil-3d",
+    titlePart1: "MAFA SECURITY",
+    titlePart2: "",
+    descriptions: ` MAFA Security is a private guard organization established to provide advance leading 
+innovative security solutions to local and international organizations at affordable cost.   
+We are managed by highly skilled, experienced, and licensed security personnel experts with 
+combined years within the security sector.  `,
   },
 ];
 

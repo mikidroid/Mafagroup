@@ -11,7 +11,7 @@ const Service = () => {
   return (
     <div>
       <Helmet>
-        <title>Moonex - Services</title>
+        <title>MAFA - Services</title>
       </Helmet>
       {/* End Page SEO Content */}
 
@@ -47,10 +47,8 @@ const Service = () => {
                       className="ptf-spacer"
                       style={{ "--ptf-xxl": "2.5rem" }}
                     ></div>
-                    <p className="fz-18">
-                      We help ambitious businesses like yours generate more
-                      profits by building awareness, driving web traffic,
-                      connecting with customers and growing overall sales.
+                    <p data-aos="fade-up" className="fz-18">
+                    We aim to create fair and sustainable value in everything we undertake as a group. 
                     </p>
                   </div>
                   {/* <!--Spacer--> */}
@@ -78,15 +76,13 @@ const Service = () => {
             Our Approach Section
         ============================================== */}
           <section
-            className="has-accent-1-background"
-            style={{
-              backgroundImage: `url(${
-                process.env.PUBLIC_URL + "assets/img/root/service-bubble.png"
-              })`,
-              backgroundRepeat: "no-repeat",
-              backgroundPosition: "100% calc(100% + 120px)",
-            }}
-          >
+            className="has-accent-1-background jarallax jarallax-img"
+              style={{
+                backgroundImage: `url(${
+                  process.env.PUBLIC_URL +
+                  "assets/img/parallax1.png"
+                })`,
+              }}>
             {/* <!--Spacer--> */}
             <div
               className="ptf-spacer"

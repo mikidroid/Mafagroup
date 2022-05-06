@@ -9,13 +9,6 @@ const brandContent = [
     title: "Zeplin",
   },
   {
-    delayAnimation: "100",
-    hoverBg: "#f3f7fc",
-    imgHeight: "78px",
-    imgName: "image-2",
-    title: "Dropbox",
-  },
-  {
     delayAnimation: "200",
     hoverBg: "#f9fcf3",
     imgHeight: "90px",
@@ -28,13 +21,6 @@ const brandContent = [
     imgHeight: "90px",
     imgName: "image-4",
     title: "Slack",
-  },
-  {
-    delayAnimation: "400",
-    hoverBg: "#fdf4fb",
-    imgHeight: "62px",
-    imgName: "image-5",
-    title: "WooCommerce",
   },
   {
     delayAnimation: "500",
