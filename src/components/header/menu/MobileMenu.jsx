@@ -62,7 +62,19 @@ const menuContent = [
     menuClass: "",
     name: "Media",
     routerPath: "/coming-soon",
-    dropDownItems:null},
+    dropDownItems: [
+      {
+        name: "News",
+        routerPath: "/service",
+      },
+      {
+        name: "Webinar",
+        routerPath: "/service",
+      },
+      {
+        name: "Events",
+        routerPath: "/service",
+      },]},
     {
     activeClass: "",
     menuClass: "",
