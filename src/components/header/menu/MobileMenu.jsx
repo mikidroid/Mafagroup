@@ -30,24 +30,24 @@ const menuContent = [
     menuClass: "",
     dropDownItems: [
       {
-        name: "Blog Grid",
-        routerPath: "/blog-grid",
+        name: "Mafa Integrated Farm",
+        routerPath: "/service",
       },
       {
-        name: "Blog Masonry",
-        routerPath: "/blog-masonry",
+        name: "AMA Consulting",
+        routerPath: "/service",
       },
       {
-        name: "Blog Sidebar",
-        routerPath: "/blog-sidebar",
+        name: "Mafa Security",
+        routerPath: "/service",
       },
       {
-        name: "Blog Details",
-        routerPath: "/blog-details",
+        name: "Mukhar Adam Foundation",
+        routerPath: "/service",
       },
       {
-        name: "Blog Details Sidebar",
-        routerPath: "/blog-details-sidebar",
+        name: "Mafa Rice Mill",
+        routerPath: "/service",
       },
     ],
   },
