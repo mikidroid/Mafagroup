@@ -4,6 +4,8 @@ export default function About(props) {
  
   return(
    <>
+   <div className="row">
+   <div className="col-lg-8">
     <div className="fz-30 fw-semibold has-accent-1" style={{textAlign:"left" }}>
     Who are we?
     </div>
@@ -196,6 +198,9 @@ that approaches issues aimed at enhancing organizational and individual
 growth with objectivity. Her career goal is to employ the use of effective HR 
 practices to develop, manage and motivate high performing workforce. 
   </p>
+  
+  </div>
+  </div>
     </>
    
    )

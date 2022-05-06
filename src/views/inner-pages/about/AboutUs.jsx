@@ -36,14 +36,14 @@ const AboutUs = () => {
 
               <div className="container-xxl">
                 <div className="row align-items-center">
-                  <div className="col-xl-6">
+                  <div className="col-xl-8">
                     {/* <!--Animated Block--> */}
                     <div
                       className="ptf-animated-block"
-                      data-aos="fade"
+                      data-aos="fade-up"
                       data-aos-delay="0"
                     >
-                      <h1 className="large-heading has-accent-1">About</h1>
+                      <h1 className="large-heading">About <br/> MAFA GROUP</h1>
                     </div>
                     {/* <!--Spacer--> */}
                     <div
@@ -53,7 +53,7 @@ const AboutUs = () => {
                     {/* <!--Animated Block--> */}
                     <div
                       className="ptf-animated-block"
-                      data-aos="fade"
+                      data-aos="fade-up"
                       data-aos-delay="100"
                     >
                       <p className="fz-30 fw-bold text-uppercase has-3-color">
@@ -64,40 +64,13 @@ const AboutUs = () => {
                     {/* <!--Spacer--> */}
                     <div
                       className="ptf-spacer"
-                      style={{ "--ptf-xxl": "10rem", "--ptf-md": "5rem" }}
+                      style={{ "--ptf-xxl": "6rem", "--ptf-md": "2rem" }}
                     ></div>
-                    <div className="row">
-                      <div className="col-xl-8">
-                        <div style={{ maxWidth: "29.6875rem" }}>
-                          {/* <!--Animated Block--> */}
-                          <div
-                            className="ptf-animated-block"
-                            data-aos="fade"
-                            data-aos-delay="200"
-                          >
-                            {/* <!--Divider--> */}
-                            <div className="ptf-divider"></div>
-                            {/* <!--Spacer--> */}
-
-                            <div
-                              className="ptf-spacer"
-                              style={{
-                                "--ptf-xxl": "4.375rem",
-                                "--ptf-md": "2.1875rem",
-                              }}
-                            ></div>
-                            
-                            
-                             <AboutFull/>
-                              
-                           
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                 </div>
 
                 </div>
+                
+                <AboutFull/>
               </div>
 
               {/* <!--Spacer--> */}
