@@ -1,4 +1,4 @@
-# Moonex - Portfolio & Agency React Template
+# My Agency React Template
 
 ## Description
 
